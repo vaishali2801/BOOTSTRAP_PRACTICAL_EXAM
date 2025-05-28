@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>carousel</title>
+</head>
+
+<body>
+    <header class="border">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <div class="navbar-brand">
+                    <h2 class="text-dark">Vaishali</h2>
+                </div>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#first">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse container" id="first">
+                    <ul class="ms-auto navbar-nav gap-3 text-center">
+                        <li class="nav-item">
+                            <a href="" class="nav-link  fw-bold">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link  fw-bold">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link  fw-bold">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link  fw-bold">Sale</a>
+                        </li>
+                    </ul>
+                    <div class="box d-flex gap-3 px-1 text-center">
+                        <h3><i class="ri-shopping-cart-2-line"></i></h3>
+                        <button class="btn border border-dark">Sign in</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="py-3">
+        <div class="">
+            <div class="row">
+                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/one.jpg" class="d-block w-100" alt="..." style="height: 700px;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>creative and innovative  digital solution</h1>
+                                <p>personalize customer experiences, and optimize campaigns.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-item active">
+                            <img src="./img/two.jpg" class="d-block w-100" alt="..." style="height: 700px;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>Leverage Artificial Intelligence (AI)</h1>
+                                <p>AI isn’t just for tech giants. Small businesses can now use AI to automate tasks. </p>
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-item active">
+                            <img src="./img/three.jpg" class="d-block w-100" alt="..." style="height: 700px;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>Master Hyper-Local Seach Engine</h1>
+                                <p> Aside from those, you can utilize AI in the following applications:</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-dark rounded-circle " aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
